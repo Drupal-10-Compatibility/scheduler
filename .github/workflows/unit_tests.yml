@@ -13,7 +13,7 @@ jobs:
     runs-on:  ubuntu-latest
     env:
       MODULE: scheduler
-      MODULES: crop commerce commerce_product
+      MODULES: crop commerce commerce_product devel_generate
       COMPOSER_MEMORY_LIMIT: -1
       # Note, the username, password, port and db match mysql service setup.
       SIMPLETEST_DB: mysql://root:root@127.0.0.1:3306/scheduler
